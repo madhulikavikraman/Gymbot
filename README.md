@@ -11,8 +11,11 @@ This project combines LLMs + structured databases to create an intelligent fitne
 It:
 
 Generates and stores 60 days of fitness data
+
 Allows users to query data using natural language
+
 Provides an interactive chatbot to log daily fitness activity
+
 Computes calorie burn and trends dynamically using SQL
 
 ---
