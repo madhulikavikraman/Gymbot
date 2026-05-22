@@ -21,10 +21,13 @@ Computes calorie burn and trends dynamically using SQL
 ---
 
 ## Project Structure
-GymBot/
-├── main_notebook.ipynb        # End-to-end implementation (data + querying + chatbot)
-├── health.db                 # SQLite database (generated)
-├── README.md                 # Project documentation
+GymBot
+
+├── main_notebook.ipynb &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `End-to-end implementation (data + querying + chatbot)`
+
+├── health.db &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `SQLite database (generated)`
+
+├── README.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Project documentation`
 
 ---
 
