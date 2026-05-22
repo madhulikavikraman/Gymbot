@@ -35,17 +35,19 @@ GymBot
 Prerequisites
 Python 3.9+
 Google API Key (Gemini)
-1. Install Dependencies
-pip install google-genai==1.7.0
+1. Install Dependencies\
+pip install google-genai==1.7.0\
 pip install langgraph==0.3.21 langchain-google-genai==2.1.2 langgraph-prebuilt==0.1.7
-2. Set Up API Key
-import os
+
+2. Set Up API Key\
+import os\
 os.environ["GOOGLE_API_KEY"] = "your_api_key_here"
+
 3. Run the Project
-Open the notebook or script
-Run all cells to:
-Generate database
-Enable querying
+Open the notebook or script\
+Run all cells to:\
+Generate database\
+Enable querying\
 Launch GymBot
 
 ---
@@ -60,19 +62,19 @@ chat.send_message("What day did the person burn the most calories?")
 
 The model:
 
-Inspects tables
-Generates SQL queries
-Executes them
+Inspects tables\
+Generates SQL queries\
+Executes them\
 Returns structured answers
 
 # 2. Fitness Data Stored
 
 The system tracks:
 
-Steps (brisk, slow, running)
-Calories consumed
-Workout duration
-Activity levels
+Steps (brisk, slow, running)\
+Calories consumed\
+Workout duration\
+Activity levels\
 Weight trends
 
 # 3. Calorie Burn Logic
@@ -122,24 +124,28 @@ Using Seaborn + Matplotlib
 
 
 # Model & System Details
-LLM
+LLM\
 Model: Gemini 2.0 Flash
-Tool-calling enabled for:
-SQL execution
-Schema inspection
-Chatbot Framework
-LangGraph
-State-based workflow
-Tool routing
-Multi-step reasoning
-Database
+
+
+Tool-calling enabled for:\
+SQL execution\
+Schema inspection\
+Chatbot Framework\
+LangGraph\
+State-based workflow\
+Tool routing\
+Multi-step reasoning\
+Database\
 SQLite (health.db)
-Tables:
-step_analysis_daily
-activity_daily
-workout_daily
-calories_consumed_daily
-calorie_burn_rates_per_step
+
+
+Tables:\
+step_analysis_daily\
+activity_daily\
+workout_daily\
+calories_consumed_daily\
+calorie_burn_rates_per_step\
 calorie_burn_rates_per_minute
 
 ---
